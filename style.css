@@ -1,0 +1,60 @@
+h1{
+    background:  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+button{
+    border:0px;
+    background-color: transparent;
+    font-weight:bold;
+    width:100px;
+    font-size: 20px;
+    text-align: right;
+
+    padding-left: 1px;
+    
+}
+input{
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    height: 50px;
+    width: 300px;
+
+}
+.inputBoxSet{
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 30px;
+    width:fit-content;
+    padding-left: 2px;
+    margin: 30px;
+margin-left: 470px;
+}
+.gridImg{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255);
+     margin: 2px;
+    width: fit-content;
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+img{
+    height:200px;
+    width:covers;
+    object-fit:cover;
+
+}
+.gridstyle{
+    display: flex;
+    flex-wrap: wrap;
+width:fit-content;
+    justify-content: space-around;
+}
